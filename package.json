@@ -1,0 +1,26 @@
+{
+  "name": "wrapper-qp",
+  "version": "2.12.3",
+  "description": "query processor as a wrapper on top of mysql",
+  "main": "qp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bundleOFSunlight/wrapper-qp"
+  },
+  "keywords": [
+    "flexqp"
+  ],
+  "author": "Cai JingHong",
+  "license": "ISC",
+  "dependencies": {
+    "core-util-is": "1.0.2",
+    "inherits": "2.0.3",
+    "moment": "^2.24.0",
+    "mysql": "^2.18.1",
+    "util-deprecate": "1.0.2",
+    "uuid": "^3.4.0"
+  }
+}
