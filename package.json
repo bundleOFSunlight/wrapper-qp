@@ -1,5 +1,5 @@
 {
-  "name": "wrapper-qp",
+  "name": "@cai_jinghong/wrapper-qp",
   "version": "1.0.1",
   "description": "query processor as a wrapper on top of mysql, this version is continue from flexqp",
   "main": "qp.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bundleOFSunlight/wrapper-qp"
+    "url": "git+https://github.com/bundleOFSunlight/wrapper-qp.git"
   },
   "keywords": [
     "flexqp"
@@ -22,5 +22,10 @@
     "mysql": "^2.18.1",
     "util-deprecate": "1.0.2",
     "uuid": "^3.4.0"
-  }
+  },
+  "types": "./qp.d.ts",
+  "bugs": {
+    "url": "https://github.com/bundleOFSunlight/wrapper-qp/issues"
+  },
+  "homepage": "https://github.com/bundleOFSunlight/wrapper-qp#readme"
 }
