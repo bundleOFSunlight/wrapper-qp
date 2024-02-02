@@ -1,7 +1,7 @@
 {
   "name": "wrapper-qp",
   "version": "2.12.3",
-  "description": "query processor as a wrapper on top of mysql",
+  "description": "query processor as a wrapper on top of mysql, this version is continue from flexqp",
   "main": "qp.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
