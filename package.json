@@ -1,6 +1,6 @@
 {
   "name": "@cai_jinghong/wrapper-qp",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "query processor as a wrapper on top of mysql, this version is continue from flexqp",
   "main": "qp.js",
   "scripts": {
@@ -19,7 +19,7 @@
     "core-util-is": "1.0.2",
     "inherits": "2.0.3",
     "moment": "^2.24.0",
-    "mysql": "^2.18.1",
+    "mysql2": "^3.9.1",
     "util-deprecate": "1.0.2",
     "uuid": "^3.4.0"
   },

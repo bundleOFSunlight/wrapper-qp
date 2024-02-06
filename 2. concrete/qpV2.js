@@ -1,5 +1,5 @@
 const moment = require('moment');
-let mysql = require('mysql');
+let mysql = require('mysql2');
 const BASIC_TYPE_CAST = (field, next) => {
     if (field.type == 'JSON') {
         return JSON.parse(field.string());

@@ -1,4 +1,4 @@
-const mysql = require('mysql');
+const mysql = require('mysql2');
 const moment = require('moment');
 const uuid = require("uuid/v4");
 // let Processor = require('../1. abstract/qpAbstract');
