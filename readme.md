@@ -46,7 +46,7 @@ Before installing, download and install Node.js. Node.js 8.0 or higher is requir
 Installation is done using the npm install command:
 
 ```
-$ npm install @flexsolver/flexqp2
+$ npm install @cai_jinghong/wrapper-qp
 ```
 
 ## Defining a Connection
@@ -76,7 +76,7 @@ let config = {
 When using the flexqp library, a connection to the database must be preset upon running the server, after which the connection is no longer required to be defined for each individual SQL query. 
 
 ```Javascript
-const qp = require('@flexsolver/flexqp2');
+const qp = require('@cai_jinghong/wrapper-qp');
 qp.presetConnection(require('./dbConfig.json'));
 ```
 

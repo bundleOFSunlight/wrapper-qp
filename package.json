@@ -1,7 +1,7 @@
 {
   "name": "@cai_jinghong/wrapper-qp",
   "version": "1.0.2",
-  "description": "query processor as a wrapper on top of mysql, this version is continue from flexqp",
+  "description": "query processor as a wrapper on top of mysql, this version is continue from wrap-qp",
   "main": "qp.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/bundleOFSunlight/wrapper-qp.git"
   },
   "keywords": [
-    "flexqp"
+    "wrap-qp"
   ],
   "author": "Cai JingHong",
   "license": "ISC",
